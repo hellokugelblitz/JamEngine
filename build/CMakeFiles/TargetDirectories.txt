@@ -1,0 +1,8 @@
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles/JamEngine.dir
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles/edit_cache.dir
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles/rebuild_cache.dir
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/vendor/SDL/CMakeFiles/SDL3-shared.dir
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/vendor/SDL/CMakeFiles/SDL3_test.dir
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/vendor/SDL/CMakeFiles/SDL_uclibc.dir
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/vendor/SDL/CMakeFiles/edit_cache.dir
+/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/vendor/SDL/CMakeFiles/rebuild_cache.dir

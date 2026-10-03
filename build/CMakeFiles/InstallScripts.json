@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/cmake_install.cmake",
+		"/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/vendor/SDL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
