@@ -3,6 +3,8 @@
 
 struct Window {
     virtual ~Window() = default;
+    virtual void init_graphics_context() = 0;
+    virtual void paint_frame() = 0;
     virtual void prepare_frame() = 0;
     virtual void end_frame() = 0;
     virtual bool is_close_requested() = 0;

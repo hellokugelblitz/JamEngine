@@ -3,10 +3,14 @@ JamEngine: \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o \
   CMakeFiles/JamEngine.dir/source/main.cpp.o \
-  CMakeFiles/JamEngine.dir/source/render/render.cpp.o \
-  CMakeFiles/JamEngine.dir/source/input/input.cpp.o \
+  CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o \
+  CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o \
+  CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o \
+  CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o \
   CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o \
   CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o \
+  CMakeFiles/JamEngine.dir/source/input/input.cpp.o \
+  CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o \
   CMakeFiles/JamEngine.dir/vendor/glad.c.o \
   vendor/SDL/libSDL3.so.0.5.0 \
   /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so \
@@ -35,7 +39,6 @@ JamEngine: \
   /usr/lib/gcc/x86_64-linux-gnu/13/libgcc.a \
   /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o \
-  /lib/x86_64-linux-gnu/libm.so.6 \
   /lib64/ld-linux-x86-64.so.2
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o:
@@ -46,13 +49,21 @@ JamEngine: \
 
 CMakeFiles/JamEngine.dir/source/main.cpp.o:
 
-CMakeFiles/JamEngine.dir/source/render/render.cpp.o:
+CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o:
 
-CMakeFiles/JamEngine.dir/source/input/input.cpp.o:
+CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o:
+
+CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o:
+
+CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o:
 
 CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o:
 
 CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o:
+
+CMakeFiles/JamEngine.dir/source/input/input.cpp.o:
+
+CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o:
 
 CMakeFiles/JamEngine.dir/vendor/glad.c.o:
 
@@ -109,7 +120,5 @@ vendor/SDL/libSDL3.so.0.5.0:
 /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o:
-
-/lib/x86_64-linux-gnu/libm.so.6:
 
 /lib64/ld-linux-x86-64.so.2:

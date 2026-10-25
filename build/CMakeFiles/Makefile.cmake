@@ -100,6 +100,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-4.2/Modules/Platform/UnixPaths.cmake"
   "/usr/local/share/cmake-4.2/Modules/SelectLibraryConfigurations.cmake"
   "/usr/local/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake"
+  "/usr/share/cmake/glm/glmConfig.cmake"
+  "/usr/share/cmake/glm/glmConfigVersion.cmake"
   )
 
 # The corresponding makefile is:

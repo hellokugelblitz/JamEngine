@@ -1,10 +1,11 @@
 #ifndef PLATFORM_SDL_H 
 #define PLATFORM_SDL_H
 
-#include "../window.hpp"
 #include <string>
 #include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
+
+#include "../window.hpp"
 
 struct SDLWindow;
 struct SDLKeyboard;
@@ -18,6 +19,8 @@ public:
     SDLWindow(int width, int height, const std::string& title);
     ~SDLWindow() override;
 
+    void init_graphics_context() override;
+    void paint_frame() override;
     void prepare_frame() override;
     void end_frame() override;
     bool is_close_requested() override;

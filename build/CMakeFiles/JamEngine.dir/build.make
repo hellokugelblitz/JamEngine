@@ -86,38 +86,66 @@ CMakeFiles/JamEngine.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/main.cpp -o CMakeFiles/JamEngine.dir/source/main.cpp.s
 
-CMakeFiles/JamEngine.dir/source/render/render.cpp.o: CMakeFiles/JamEngine.dir/flags.make
-CMakeFiles/JamEngine.dir/source/render/render.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/render/render.cpp
-CMakeFiles/JamEngine.dir/source/render/render.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JamEngine.dir/source/render/render.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/render/render.cpp.o -MF CMakeFiles/JamEngine.dir/source/render/render.cpp.o.d -o CMakeFiles/JamEngine.dir/source/render/render.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/render/render.cpp
+CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o: CMakeFiles/JamEngine.dir/flags.make
+CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/render.cpp
+CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o -MF CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o.d -o CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/render.cpp
 
-CMakeFiles/JamEngine.dir/source/render/render.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/source/render/render.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/render/render.cpp > CMakeFiles/JamEngine.dir/source/render/render.cpp.i
+CMakeFiles/JamEngine.dir/source/graphics/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/source/graphics/render.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/render.cpp > CMakeFiles/JamEngine.dir/source/graphics/render.cpp.i
 
-CMakeFiles/JamEngine.dir/source/render/render.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/render/render.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/render/render.cpp -o CMakeFiles/JamEngine.dir/source/render/render.cpp.s
+CMakeFiles/JamEngine.dir/source/graphics/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/graphics/render.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/render.cpp -o CMakeFiles/JamEngine.dir/source/graphics/render.cpp.s
 
-CMakeFiles/JamEngine.dir/source/input/input.cpp.o: CMakeFiles/JamEngine.dir/flags.make
-CMakeFiles/JamEngine.dir/source/input/input.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp
-CMakeFiles/JamEngine.dir/source/input/input.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JamEngine.dir/source/input/input.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/input/input.cpp.o -MF CMakeFiles/JamEngine.dir/source/input/input.cpp.o.d -o CMakeFiles/JamEngine.dir/source/input/input.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp
+CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o: CMakeFiles/JamEngine.dir/flags.make
+CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/resource_manager.cpp
+CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o -MF CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o.d -o CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/resource_manager.cpp
 
-CMakeFiles/JamEngine.dir/source/input/input.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/source/input/input.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp > CMakeFiles/JamEngine.dir/source/input/input.cpp.i
+CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/resource_manager.cpp > CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.i
 
-CMakeFiles/JamEngine.dir/source/input/input.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/input/input.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp -o CMakeFiles/JamEngine.dir/source/input/input.cpp.s
+CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/resource_manager.cpp -o CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.s
+
+CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o: CMakeFiles/JamEngine.dir/flags.make
+CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/shader.cpp
+CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o -MF CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o.d -o CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/shader.cpp
+
+CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/shader.cpp > CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.i
+
+CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/shader.cpp -o CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.s
+
+CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o: CMakeFiles/JamEngine.dir/flags.make
+CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/texture.cpp
+CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o -MF CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o.d -o CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/texture.cpp
+
+CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/texture.cpp > CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.i
+
+CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/graphics/texture.cpp -o CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.s
 
 CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o: CMakeFiles/JamEngine.dir/flags.make
 CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/platform/platform.cpp
 CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o -MF CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o.d -o CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/platform/platform.cpp
 
 CMakeFiles/JamEngine.dir/source/platform/platform.cpp.i: cmake_force
@@ -131,7 +159,7 @@ CMakeFiles/JamEngine.dir/source/platform/platform.cpp.s: cmake_force
 CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o: CMakeFiles/JamEngine.dir/flags.make
 CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/platform/sdl3/platform_sdl.cpp
 CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o -MF CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o.d -o CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/platform/sdl3/platform_sdl.cpp
 
 CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.i: cmake_force
@@ -142,10 +170,38 @@ CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/platform/sdl3/platform_sdl.cpp -o CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.s
 
+CMakeFiles/JamEngine.dir/source/input/input.cpp.o: CMakeFiles/JamEngine.dir/flags.make
+CMakeFiles/JamEngine.dir/source/input/input.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp
+CMakeFiles/JamEngine.dir/source/input/input.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/JamEngine.dir/source/input/input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/source/input/input.cpp.o -MF CMakeFiles/JamEngine.dir/source/input/input.cpp.o.d -o CMakeFiles/JamEngine.dir/source/input/input.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp
+
+CMakeFiles/JamEngine.dir/source/input/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/source/input/input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp > CMakeFiles/JamEngine.dir/source/input/input.cpp.i
+
+CMakeFiles/JamEngine.dir/source/input/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/source/input/input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/source/input/input.cpp -o CMakeFiles/JamEngine.dir/source/input/input.cpp.s
+
+CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o: CMakeFiles/JamEngine.dir/flags.make
+CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/vendor/stb_image/stb_image.cpp
+CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o -MF CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o.d -o CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/vendor/stb_image/stb_image.cpp
+
+CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/vendor/stb_image/stb_image.cpp > CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.i
+
+CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/vendor/stb_image/stb_image.cpp -o CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.s
+
 CMakeFiles/JamEngine.dir/vendor/glad.c.o: CMakeFiles/JamEngine.dir/flags.make
 CMakeFiles/JamEngine.dir/vendor/glad.c.o: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/vendor/glad.c
 CMakeFiles/JamEngine.dir/vendor/glad.c.o: CMakeFiles/JamEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/JamEngine.dir/vendor/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/JamEngine.dir/vendor/glad.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/JamEngine.dir/vendor/glad.c.o -MF CMakeFiles/JamEngine.dir/vendor/glad.c.o.d -o CMakeFiles/JamEngine.dir/vendor/glad.c.o -c /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/vendor/glad.c
 
 CMakeFiles/JamEngine.dir/vendor/glad.c.i: cmake_force
@@ -159,27 +215,35 @@ CMakeFiles/JamEngine.dir/vendor/glad.c.s: cmake_force
 # Object files for target JamEngine
 JamEngine_OBJECTS = \
 "CMakeFiles/JamEngine.dir/source/main.cpp.o" \
-"CMakeFiles/JamEngine.dir/source/render/render.cpp.o" \
-"CMakeFiles/JamEngine.dir/source/input/input.cpp.o" \
+"CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o" \
+"CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o" \
+"CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o" \
+"CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o" \
 "CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o" \
 "CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o" \
+"CMakeFiles/JamEngine.dir/source/input/input.cpp.o" \
+"CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o" \
 "CMakeFiles/JamEngine.dir/vendor/glad.c.o"
 
 # External object files for target JamEngine
 JamEngine_EXTERNAL_OBJECTS =
 
 JamEngine: CMakeFiles/JamEngine.dir/source/main.cpp.o
-JamEngine: CMakeFiles/JamEngine.dir/source/render/render.cpp.o
-JamEngine: CMakeFiles/JamEngine.dir/source/input/input.cpp.o
+JamEngine: CMakeFiles/JamEngine.dir/source/graphics/render.cpp.o
+JamEngine: CMakeFiles/JamEngine.dir/source/graphics/resource_manager.cpp.o
+JamEngine: CMakeFiles/JamEngine.dir/source/graphics/shader.cpp.o
+JamEngine: CMakeFiles/JamEngine.dir/source/graphics/texture.cpp.o
 JamEngine: CMakeFiles/JamEngine.dir/source/platform/platform.cpp.o
 JamEngine: CMakeFiles/JamEngine.dir/source/platform/sdl3/platform_sdl.cpp.o
+JamEngine: CMakeFiles/JamEngine.dir/source/input/input.cpp.o
+JamEngine: CMakeFiles/JamEngine.dir/vendor/stb_image/stb_image.cpp.o
 JamEngine: CMakeFiles/JamEngine.dir/vendor/glad.c.o
 JamEngine: CMakeFiles/JamEngine.dir/build.make
 JamEngine: CMakeFiles/JamEngine.dir/compiler_depend.ts
 JamEngine: vendor/SDL/libSDL3.so.0.5.0
 JamEngine: /home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/vendor/SDL/src/dynapi/SDL_dynapi.sym
 JamEngine: CMakeFiles/JamEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable JamEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jack/Desktop/ComputerGraphics/Scream_Jam/JamEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable JamEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JamEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

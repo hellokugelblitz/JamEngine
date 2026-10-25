@@ -12,27 +12,28 @@ IF(CMAKE_SYSTEM_NAME STREQUAL LINUX_STR)
 ENDIF()
 
 IF(LINUX)
+    find_package(glm REQUIRED)
+
     add_executable(JamEngine
         source/main.cpp
-        source/render/render.cpp
-        source/input/input.cpp
+        source/graphics/render.cpp
+        source/graphics/resource_manager.cpp
+        source/graphics/shader.cpp
+        source/graphics/texture.cpp
         source/platform/platform.cpp
         source/platform/sdl3/platform_sdl.cpp
+        source/input/input.cpp
+        vendor/stb_image/stb_image.cpp
         vendor/glad.c
     )
 
-    target_include_directories(JamEngine PRIVATE
-        vendor
-    )
-
-   add_subdirectory(vendor/SDL EXCLUDE_FROM_ALL)
-
-   target_link_libraries(JamEngine PRIVATE SDL3::SDL3)
-
+    target_include_directories(JamEngine PRIVATE vendor)
+    add_subdirectory(vendor/SDL EXCLUDE_FROM_ALL)
+    target_link_libraries(JamEngine PRIVATE SDL3::SDL3 glm::glm)
 ENDIF()
 
 # TODO(jack)
-IF(APPLE)
+IF(OSX)
 
 ENDIF()
 

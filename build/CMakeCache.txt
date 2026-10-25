@@ -1254,6 +1254,9 @@ XSS_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXss.so
 //Path to a library.
 XTST_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libXtst.so
 
+//The directory containing a CMake configuration file for glm.
+glm_DIR:PATH=/usr/share/cmake/glm
+
 //Path to a library.
 pkgcfg_lib_DBUS_dbus-1:FILEPATH=/usr/lib/x86_64-linux-gnu/libdbus-1.so
 

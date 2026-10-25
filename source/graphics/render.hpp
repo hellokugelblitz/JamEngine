@@ -1,12 +1,23 @@
 #ifndef RENDER_H
 #define RENDER_H 
 
-// This class handles Input (key presses) and provides methods to handle them.
+#include "texture.hpp" 
+#include "shader.hpp"
+
+// This is our global point of access for accessing render functionality in app code
 struct RenderManager {
 public:
-    SDL_Window* game_window;
-    int render_init(int width, int height);
+    RenderManager();
+    ~RenderManager();
+    
+    void set_shader(Shader &shader);
+    void clear_screen(float r, float g, float b, float a);
+    void draw_sprite(Texture &texture, glm::vec2 position, glm::vec2 size, float rotate, glm::vec3 color);
+private:
+    Shader       shader; 
+    unsigned int quadVAO;
+    int render_init();
+    void init_quad_render_data();
 };
-
 
 #endif 

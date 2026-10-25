@@ -1,16 +1,7 @@
-#include "./platform_sdl.hpp"
 #include <iostream>
-
+#include "./platform_sdl.hpp"
 
 SDLWindow::SDLWindow(int width, int height, const std::string &title) {
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, 0);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
-    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
-    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
-    SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
-    SDL_GL_SetAttribute(SDL_GL_STENCIL_SIZE, 8);
-
     //Initialize SDL
     if( SDL_Init( SDL_INIT_VIDEO ) == false )
     {
@@ -24,12 +15,7 @@ SDLWindow::SDLWindow(int width, int height, const std::string &title) {
             SDL_Log( "Window could not be created! SDL error: %s\n", SDL_GetError());
             this->~SDLWindow();
         }
-        SDL_GLContext game_gl_context = SDL_GL_CreateContext(game_window);
-        SDL_GL_MakeCurrent(game_window, game_gl_context);
-        SDL_GL_SetSwapInterval(1); // Enable vsync
-        SDL_SetWindowPosition(game_window, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
-        SDL_ShowWindow(game_window);
-  }
+    }
 }
 
 SDLWindow::~SDLWindow() {
@@ -39,6 +25,28 @@ SDLWindow::~SDLWindow() {
     }
     SDL_Quit();
     std::exit(0);
+}
+
+void SDLWindow::init_graphics_context(){
+    // OPENGL System Properties
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, 0);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 0);
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+    SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 24);
+    SDL_GL_SetAttribute(SDL_GL_STENCIL_SIZE, 8);
+
+    //Creating OpenGL context
+    SDL_GLContext game_gl_context = SDL_GL_CreateContext(game_window);
+        SDL_GL_MakeCurrent(game_window, game_gl_context);
+        SDL_GL_SetSwapInterval(1); // Enable vsync
+        SDL_SetWindowPosition(game_window, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
+        SDL_ShowWindow(game_window);
+}
+
+void SDLWindow::paint_frame(){
+    SDL_GL_SwapWindow(game_window);
 }
 
 void SDLWindow::prepare_frame(){
