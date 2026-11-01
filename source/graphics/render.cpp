@@ -1,6 +1,5 @@
-#include <SDL3/SDL.h>
-#include <SDL3/SDL_main.h>
-#include <glad/glad.h>
+//#include <SDL3/SDL.h>
+//#include <SDL3/SDL_main.h>
 
 #include "../global.hpp"
 #include "render.hpp"

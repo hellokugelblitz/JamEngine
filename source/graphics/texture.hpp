@@ -1,6 +1,8 @@
 #ifndef TEXTURE_H
 #define TEXTURE_H
 
+#include "../../vendor/glad/glad.h"
+
 struct Texture 
 {
 public:

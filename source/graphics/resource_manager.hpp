@@ -2,7 +2,7 @@
 #define RESOURCE_MANAGER_H
 
 #include <map>
-#include <glad/glad.h>
+//#include <glad/glad.h>
 #include "texture.hpp"
 #include "shader.hpp"
 

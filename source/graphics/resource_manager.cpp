@@ -1,5 +1,6 @@
 #include <sstream>
 #include <fstream>
+#include "../../vendor/glad/glad.h"
 #include "../../vendor/stb_image/stb_image.h"
 #include "resource_manager.hpp"
 

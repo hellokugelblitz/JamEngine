@@ -1,5 +1,7 @@
 #include <iostream>
-#include <SDL3/SDL.h> // remove when not needed anymore please
+//#include "../vendor/SDL/include/SDL3/SDL.h" // remove when not needed anymore please
+///#include "../vendor/SDL/include/SDL3/SDL_main.h"
+#include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 
 #include "graphics/resource_manager.hpp"

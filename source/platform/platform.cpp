@@ -1,4 +1,4 @@
-#include "./platform.hpp";
+#include "./platform.hpp"
 
 //PlatformManager::PlatformManager(){
 //
